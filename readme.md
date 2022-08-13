@@ -25,9 +25,9 @@ In this exercise, the goal is to apply as many as possible of the concepts you'v
 
   
 
-1. [Fork](https://gist.github.com/) this repo
+1. Fork this repo
 
-2. [Clone](https://gist.github.com/) this repo
+2. Clone this repo
 
   
 
@@ -35,7 +35,7 @@ Whenever you create a first significant change, you should make your first commi
 
   
 
-3. Follow these [guidelines to add, commit and push changes](https://gist.github.com/).
+3. Follow these [guidelines to add, commit and push changes](https://dashboard.rootlearn.com/c/web-dev/35-github-more-basics).
 
   
 
@@ -427,11 +427,11 @@ _Useful information_:
 
   
 
-If you didn't [add, commit and push the changes](https://gist.github.com/) you made, this is the last call. :smile:
+If you didn't [add, commit and push the changes](https://dashboard.rootlearn.com/c/web-dev/35-github-more-basics) you made, this is the last call. :smile:
 
   
 
-And at the same time, if you didn't [create a pull request](https://gist.github.com/) this is the time for that as well.
+And at the same time, if you didn't [create a pull request](https://dashboard.rootlearn.com/c/web-dev/35-github-more-basics) this is the time for that as well.
 
 
 
