@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "header"
+                       "hero-top"
+                       "hero-middle"
+                       "hero-bottom";
+  font-family: 'Poppins', 'Arimo', 'Fira Mono', monospace, sans-serif, ;
+}
+
+.header {
+ grid-area: header;
+}
+
+.hero-top {
+grid-area: hero-top;
+}
+
+.hero-middle {
+grid-area: hero-middle;
+}
+
+.hero-bottom {
+grid-area: hero-bottom;
+}
+
