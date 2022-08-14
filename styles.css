@@ -7,7 +7,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 20% 40% 40% 30%;
+  grid-template-rows: 2.2% 10% 40% 30%;
   grid-template-areas: "header"
                        "hero-top"
     "hero-middle"
@@ -35,7 +35,6 @@ body {
 
 .header-top-left-img{
   width: 1.5rem;
-  height: 1rem;
 }
 
 .header-top-left, .header-top-right-nav{
@@ -126,6 +125,60 @@ input.nosubmit {
 
 .hero-top {
   grid-area: hero-top;
+  background-color: #F8F4F4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-top-heading {
+font-family: "Poppins";
+font-style: normal;
+font-weight: 900;
+font-size: 5rem;
+line-height: 15rem;
+color: #000;
+
+}
+
+.hero-top-article{
+  width: 24%;
+  text-align: center;
+  font-family: "Arimo", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #000;
+}
+
+.hero-top-plans-join{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0 8rem 0;
+}
+
+.hero-top-plans, .hero-top-join {
+  font-family: "Arimo", "sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+
+.hero-top-plans {
+  border: none;
+  padding: 0.8rem 5rem 0.8rem 5rem;
+  background-color: #FC545A;
+  margin-left: 1rem;
+  color: #fff;
+  box-shadow: 8px 8px 2.5px lightpink;
+  margin-right: 5rem;
+
 }
 
 .hero-middle {
