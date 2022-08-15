@@ -8,13 +8,12 @@ body {
   overflow-y: scroll;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10.5% 55% 50% 15% 5%;
+  grid-template-rows: 10.5% 55% 50% 15%;
   grid-template-areas:
     "header"
     "hero-top"
     "hero-middle"
-    "hero-bottom"
-    "footer";
+    "hero-bottom";
   font-family: "Poppins", "Arimo", "Fira Mono", monospace, sans-serif;
 }
 
@@ -133,9 +132,6 @@ input.nosubmit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-box-shadow: 0 -4px 8px -8px #333;
-
 }
 
 .hero-top-heading {
@@ -267,7 +263,7 @@ box-shadow: 0 -4px 8px -8px #333;
 
 .hero-bottom-button {
   border: none;
-  padding: 0.8rem 6rem 0.8rem 6rem;
+  padding: 0.8rem 4rem 0.8rem 4rem;
   background-color: black;
   margin-left: 1rem;
   color: #fff;
@@ -278,10 +274,6 @@ box-shadow: 0 -4px 8px -8px #333;
   font-weight: 900;
   font-size: 1rem;
   line-height: 1rem;
+  width: 18%;
   align-content: center;
-}
-
-.last-button {
-  grid-area: footer;
-  margin-left: 52rem;
 }
