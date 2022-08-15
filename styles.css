@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+	font-family: 'Poppins';
+}
+
+header > div {
+	padding: 0  25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+}
+
+  
+nav {
+	width: 600px;
+}
+
+nav  ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav  a {
+	text-decoration: none;
+	color: black;
+}
+
+.blackHeart {
+	width: 20px;
+	margin-right: 1rem;
+}
+
+.search {
+    background-color: #fb3e44;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+input  {
+    padding: 10px;
+    background-color: rgba(0,0,0,.05);
+}
+
+.npm-logo {
+    width:  50px;
+}
+.glass  {
+    width: 50px;
+}
+
+.build {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+
+}
+.build-article  {
+    color: black;
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+    padding: 30px;
+}
+
+.plans  {
+    color: white;
+    background:  #fb3e44 ;
+    box-shadow: 5px  5px #e8979c;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    margin-right: 75px;
+
+}
+
+.normal {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.login {
+    color: black;
+    text-decoration: none;
+}
+
+.join {
+    color: black;
+    text-decoration: none;
+    border: solid 1px ;
+    padding: 3px 10px;
+}
+
+.pink {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+  
+}
+
+.middle-section  {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.heart-heading  {
+    font-size: 25px;
+    font-weight: bold;
+    background:rgba(255,204,53,.4);
+    transform: skew(10deg,0deg);
+}
+
+.heart-article {
+width: 500px;
+text-align: center;
+margin: auto;
+}
+
+.flexbox  {
+    display: flex;
+    padding-top: 100px;
+    text-align: left;
+    width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.boxImg {
+    width: 30px;
+}
+#red-bottom  {
+    color: red;
+}
+
+.org  {
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+    border: none;
+    box-shadow: 4px 4px gray;
+}
