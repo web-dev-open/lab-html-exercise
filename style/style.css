@@ -30,6 +30,7 @@ nav a{
 
 /* Styles for the search input content */
 .search-input-content {
+    background-color: rgba(0,0,0,.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +48,7 @@ nav a{
 
 /* Styles for the search input section */
 #search-iput {
+    background-color: rgba(0,0,0,.05);
     display: flex;
     align-items: center;
     flex: 1; 
@@ -54,7 +56,7 @@ nav a{
 
 /* Styles for the magnifying glass image */
 #search-iput .site-log {
-    width: 30px; 
+    width: 40px; 
     margin-right: 1rem;
 }
 
@@ -62,14 +64,15 @@ nav a{
 
 #search-iput .search input[type="text"] {
     flex: 2; 
-    padding: 10px; 
+    padding: 15px; 
     border: none; 
     border-radius: 5px; 
+   
     
 }
 
 #search-iput button {
-    background-color: red; 
+    background-color: #fb3e44; 
     color: #fff; 
     border: none; 
     padding: 8px 15px; 
