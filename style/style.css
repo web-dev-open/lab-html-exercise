@@ -154,23 +154,29 @@ section {
 /* Style the container of section1 */
 .section1 {
     display: flex;
-    justify-content: flex-start; /* Start from the left */
+    justify-content: flex-start; 
     align-items: center;
-    margin: 20px 0; /* Fine-tune the margin as needed */
+    margin: 20px 0; 
 
     /* Add a background color with skew transformation */
     background-color: rgba(255, 204, 53, 0.4);
     transform: skew(-9deg, 0deg);
     font-style: italic;
-    padding: 20px; /* Add padding to adjust the position of elements */
+    padding: 20px; 
 }
 
 /* Style the image within section1 */
-.section1 img {
-    max-width: 200px;
-    transform: skew(9deg, 0deg); /* Apply the skew transformation to the image */
+.hex-image {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
 }
 
+.hex-image img {
+    max-width: 200px; 
+    padding: 50px;
+}
 /* Style the heading within section1 */
 .section1 h2 {
     font-size: 24px;
