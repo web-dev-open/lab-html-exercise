@@ -1,0 +1,230 @@
+@import url(https://fonts.google.com);
+body{
+    font-family: 'Poppins';
+}
+
+header > div{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid light;
+}
+nav{
+    width: 600px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.blackHeart{
+    width: 20px;
+    margin-right: 1rem;
+}
+
+/* Styles for the search input content */
+.search-input-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px; 
+    border-bottom: 1px solid light; 
+    background-color: #faf7f7;
+    color: #fff; 
+}
+
+/* Styles for the logo */
+.search-input-content .site-log {
+    width: 80px; 
+    margin-right: 1rem;
+}
+
+/* Styles for the search input section */
+#search-iput {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+}
+
+/* Styles for the magnifying glass image */
+#search-iput .site-log {
+    width: 30px; 
+    margin-right: 1rem;
+}
+
+
+
+#search-iput .search input[type="text"] {
+    flex: 2; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    
+}
+
+#search-iput button {
+    background-color: red; 
+    color: #fff; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    
+}
+
+/* Style for the "Join" link */
+#header-links a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    margin-right: 1rem; 
+}
+
+/* Style for the "Login" link */
+.header-links a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-left: 1rem; 
+}
+
+
+/* Center the text within the main section */
+.main {
+    text-align: center;
+    padding: 120px;
+    background-color: rgba(232,217,217,.3);
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    max-width: 1920px;
+    height: 600px; 
+    
+}
+
+/* Style the heading */
+.main h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+    
+}
+
+/* Style the article content */
+.main .article {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Style the button */
+.main button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2); /* Add the box shadow */
+}
+
+
+/* Style the "Join for Free" link */
+.main a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px; 
+}
+
+/* Center the content within the section */
+section {
+    text-align: center;
+    padding: 20px;
+}
+/* Style the container of section1 */
+.section1 {
+    display: flex;
+    justify-content: flex-start; /* Start from the left */
+    align-items: center;
+    margin: 20px 0; /* Fine-tune the margin as needed */
+
+    /* Add a background color with skew transformation */
+    background-color: rgba(255, 204, 53, 0.4);
+    transform: skew(-9deg, 0deg);
+    font-style: italic;
+    padding: 20px; /* Add padding to adjust the position of elements */
+}
+
+/* Style the image within section1 */
+.section1 img {
+    max-width: 200px;
+    transform: skew(9deg, 0deg); /* Apply the skew transformation to the image */
+}
+
+/* Style the heading within section1 */
+.section1 h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333; /* Text color */
+}
+
+/* Style the article content within section1 */
+.section1 .article {
+    font-size: 16px;
+    margin: 0;
+    color: #333; /* Text color */
+}
+
+/* Container for the flex items */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual flex items */
+.flexi {
+    flex: 1;
+    text-align: center;
+    border: 1px solid red; 
+    padding: 20px;
+    position: relative; 
+}
+
+/* Images floated to the top left */
+.flexi .flexi-image img {
+    width: 40px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+/* Red headings */
+.flexi h2 {
+    color: red;
+}
+
+/* Black button */
+.black-button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px; 
+    width: 150px; 
+    margin: 20px auto; 
+    border: none;
+    border-radius: 5px;
+}
