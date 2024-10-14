@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header > div#topheading {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.npmlogo {
+  width: 90px;
+}
+
+.search_icon {
+  height: 20px;
+  padding: 15px;
+  position: absolute;
+}
+
+header > #subheading {
+  padding: 15px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 10px;
+  border-bottom: 1px solid lightgray;
+}
+#search_bar {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+#search_bar input {
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+}
+
+#search_bar input#search_box {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 15px 15px 15px 50px;
+  width: 500px;
+}
+
+#search_bar input#search-btn {
+  background-color: #fb3e44;
+  color: #fff;
+  padding: 15px;
+}
+
+.subhead-div-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15px;
+}
+
+/* link styling */
+a {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+a.heading-btn {
+  padding: 10px 20px;
+  margin: 0px 5px;
+}
+.bordered {
+  border: 1px solid #5c5c5c;
+  font-weight: bold;
+}
+
+.base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.base h1 {
+    text-align: center;
+}
+section.content-1 {
+  background-color: rgba(232, 217, 217, 0.3);
+  height: 600px;
+}
+
+section.content-1 > article,
+section.content-2 > article,
+section.content-1 > div {
+  width: 600px;
+  text-align: center;
+}
+section.content-1 > h1 {
+  font-size: 5em;
+}
+section.content-1 > .plans {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-btn2 {
+  padding: 15px 70px;
+}
+section.content-1 > div > .content1-btn {
+  background-color: #fb3b49;
+  color: #fff;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+}
+section.content-1 > div > .content2-btn {
+  background-color: #ffffff;
+}
+
+section.content-2 {
+  height: 400px;
+}
+section.content-2 > img {
+  size: 12px;
+}
+section.content-2 > h4 {
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
+  font-style: italic;
+  margin: 0 10px;
+  font-size: 1.7em;
+  padding: 0 15px;
+}
+
+/* LAST */
+
+.last-section {
+  width: 80%;
+  height: 550px;
+  margin-top: 100px;
+}
+
+.last-section > .box-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.last-section > div > .box {
+  padding: 15px;
+  height: 400px;
+  width: 300px;
+  /* border: 1px solid #000; */
+}
+.box-heading {
+  color: #ed1c24;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+.last-section > .orgbtn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+
+}
+.last-section > .orgbtn-container > .org-btn {
+  padding: 15px 120px ;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
+}
