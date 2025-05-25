@@ -448,7 +448,3 @@ In this exercise, you've built a clone of a piece of the npm home page. This sit
   
 
 This concludes the HTML / CSS section and your prework. We are proud of you!
-
-  
-
-_The Root Learn team :heart:_
